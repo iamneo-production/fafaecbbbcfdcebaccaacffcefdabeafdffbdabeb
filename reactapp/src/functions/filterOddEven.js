@@ -20,8 +20,7 @@ export const filterEven=(...arr)=>
     });
     return ans;
 }
-
-export const generateRadomList=(n)=>
+export const generateRandomList=(n=7)=>
 {
     let res=[];
     for(let i=0;i<n;i++)
