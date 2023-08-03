@@ -21,7 +21,7 @@ export const filterEven=(...arr)=>
     return ans;
 }
 
-export const generateRadomList=(n=7)=>
+export const generateRadomList=(n)=>
 {
     let res=[];
     for(let i=0;i<n;i++)
